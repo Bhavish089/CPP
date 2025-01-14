@@ -7,7 +7,7 @@ int main() {
     std::string z = "World";
     std::cout << "int x = " << x;
     std::cout << "\nfloat a = " << a;
-    std::cout << "\nchar y = " << y;
+    std::cout << "\nconst char* y = " << y;
     std::cout << "\nString z = " << z << std::endl;
     return 0;
 }
